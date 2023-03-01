@@ -14,7 +14,7 @@
     <script src="https://kit.fontawesome.com/6ca74463c4.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header id="home" class="header-1">
+    <header id="home">
       <h1>The Royal Palace</h1>
       <p>
         Hover over the family members below and take a peak into the lives of
@@ -24,7 +24,7 @@
     <hr style="border-color: black" />
     <!-- Adds a line break, but unlike <br> it also draws a line. Here I change the colour of this line-->
     <main>
-      <article id="king" class="cards">
+      <div id="king" class="card">
         <h2>King Kieran</h2>
         <img src="./images/king.jpeg" alt="King Kieran" />
         <!-- alt used to add accesibility features to image,
@@ -34,9 +34,9 @@
           son <a href="#prince">Peter</a> is the heir to the throne.
         </p>
         <!-- a href with #id reference an id on the page, so that it can link directly to a specific piece of content. -->
-      </article>
+      </div>
 
-      <article id="queen" class="cards">
+      <div id="queen" class="card">
         <h3>Queen Queenie</h3>
         <img src="./images/queen.jpeg" alt="Queen Queenie" />
         <p>
@@ -47,18 +47,18 @@
           to see my favourite quinoa recipe.
         </p>
         <!-- href means hyperlink reference -->
-      </article>
+      </div>
 
-      <article id="prince" name="peter" class="cards">
+      <div id="prince" name="peter" class="card">
         <h4>Prince Peter</h4>
         <img src="./images/prince-peter.jpeg" alt="Prince Peter" />
         <p>
           My name is Peter the Prince. I like posing and pizza! Follow me on
           instagram @pengprincepeter.
         </p>
-      </article>
+      </div>
 
-      <article id="princess" class="cards">
+      <div id="princess" class="card">
         <h5>Princess Penelope</h5>
         <img src="./images/princess-penelope.jpeg" alt="Princess Penelope" />
         <p>My name is Princess Penelope. I like lots of things...</p>
@@ -68,16 +68,16 @@
           <li>Ponies</li>
           <li>Pogo Sticks</li>
         </ul>
-      </article>
+      </div>
 
-      <article id="susan" class="cards">
+      <div id="susan" class="card">
         <h6>Susan</h6>
         <img src="./images/susan.jpeg" alt="Susan" />
         <p>
           I am King <a href="#king">Kieran</a>'s Mistress and Mother to the
           illigitimate Princess <a href="#princess">Penelope</a>.
         </p>
-      </article>
+      </div>
     </main>
     <hr style="border-color:black;"> <!-- another line to demarcate the end of main page and beginning of footer. -->
     <footer>
@@ -96,6 +96,7 @@
           <i class="fa-brands fa-instagram fa-2xl"></i></a>
         </div>
       </div>
+      <br>
   </footer>
   </body>
 </html>
