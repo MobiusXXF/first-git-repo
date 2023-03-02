@@ -4,6 +4,11 @@
     font-family: Tahoma, Verdana, sans-serif;
 }
 
+*::selection {
+    color: white;
+    background-color: #1182eb;
+}
+
 body {
     background-color: white;
     max-width: 1400px;
@@ -32,6 +37,11 @@ header h1 {
     background-color: white;
     color: midnightblue;
     box-shadow: 5px 5px 5px 5px lightgray;
+    opacity: 0.3;
+}
+
+.card:hover {
+    opacity: 1;
 }
 
 .card img {
@@ -53,3 +63,4 @@ span {
     font-size: 1.5em;
     color: #b48ce0
 }
+
