@@ -1,18 +1,47 @@
 body {
     background-color: rgb(216, 216, 228);
+    height: auto; /* change to 50px
+    and it returns with 50px height, 
+    why? why does it do this? */
+    width: auto;
 }
 
 div {
-    height: 50px;
-    width: 300px;
+    height: auto;
+    width: 250px;
 }
 
 div.flag {
-    padding: 20px;
+    padding: 0px;
     margin: auto;
-    height: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    height: 150px;
+    opacity: 0.3;
 }
 
-#id:hover {
+div#ger:hover {
+    border: 1px solid black;
+}
+
+div#fr:hover {
+    opacity: 1;
+}
+
+div#fr {
+    display: flex;
+    height: 150px;
+}
+
+div#ger {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+}
+ /*:hover {
+    background-color: aqua;
+}
+
+ :hover {
 
 }
