@@ -16,6 +16,6 @@ div.col-sm-8 {
 }
 */
 
-div.row {
-    border: 1px solid black;
+.row {
+    border: 1px solid gray;
 }
