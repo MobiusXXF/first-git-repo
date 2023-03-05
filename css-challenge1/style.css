@@ -1,0 +1,18 @@
+body {
+    background-color: white;
+}
+
+div {
+    height: 50px;
+    width: 300px;
+}
+
+div.flag {
+    padding: 20px;
+    margin: auto;
+    height: auto;
+}
+
+#id:hover {
+
+}
