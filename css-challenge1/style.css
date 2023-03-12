@@ -60,28 +60,24 @@ div#fr3 {
 
 /* implementing flag switch feature - Ger-Hungary*/
 
-div#ger1:hover {
+div#ger:hover > div#ger1 {
     background-color: red;
 }
-
-div#ger2:hover {
+div#ger:hover > div#ger2 {
     background-color: white;
 }
-
-div#ger3:hover {
+div#ger:hover > div#ger3 {
     background-color: green;
 }
 
 /* implement flag switch feature - Fr-Ireland */
 
-div#fr1:hover {
+div#fr:hover > div#fr1 {
     background-color: green;
 }
-
-div#fr2:hover {
+div#fr:hover > div#fr2 {
     background-color: white;
 }
-
-div#fr3:hover {
+div#fr:hover > div#fr3 {
     background-color: orange;
 } 
