@@ -1,8 +1,6 @@
 body {
     background-color: rgb(216, 216, 228);
-    height: auto; /* change to 50px
-    and it returns with 50px height, 
-    why? why does it do this? */
+    height: auto;
     width: auto;
 }
 
@@ -10,18 +8,14 @@ div {
     height: auto;
     width: 250px;
 }
-
+/* Germany */
 div.flag1 {
     padding: 0px;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
     height: 75px;
-    opacity: 0.3;
-}
-
-div#ger:hover {
-    opacity: 1;
+    
 }
 
 div#ger {
@@ -29,17 +23,24 @@ div#ger {
     height: 150px;
 }
 
+div#ger1 {
+    background-color: black;
+}
+div#ger2 {
+    background-color: red;
+}
+div#ger3 {
+    background-color: yellow;
+}
+
+/* France */
 div.flag2 {
     padding: 0px;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
     height: 150px;
-    opacity: 0.3;
-}
-
-div#fr:hover {
-    opacity: 1;
+    
 }
 
 div#fr {
@@ -47,11 +48,40 @@ div#fr {
     height: 150px;
 }
 
-
- /*:hover {
-    background-color: aqua;
+div#fr1 {
+    background-color: blue;
+}
+div#fr2 {
+    background-color: white;
+}
+div#fr3 {
+    background-color: red;
 }
 
- :hover {
+/* implementing flag switch feature - Ger-Hungary*/
 
+div#ger1:hover {
+    background-color: red;
 }
+
+div#ger2:hover {
+    background-color: white;
+}
+
+div#ger3:hover {
+    background-color: green;
+}
+
+/* implement flag switch feature - Fr-Ireland */
+
+div#fr1:hover {
+    background-color: green;
+}
+
+div#fr2:hover {
+    background-color: white;
+}
+
+div#fr3:hover {
+    background-color: orange;
+} 
