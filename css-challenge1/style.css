@@ -11,17 +11,31 @@ div {
     width: 250px;
 }
 
-div.flag {
+div.flag1 {
     padding: 0px;
     margin: auto;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    height: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 75px;
     opacity: 0.3;
 }
 
 div#ger:hover {
-    border: 1px solid black;
+    opacity: 1;
+}
+
+div#ger {
+    display: grid;
+    height: 150px;
+}
+
+div.flag2 {
+    padding: 0px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 150px;
+    opacity: 0.3;
 }
 
 div#fr:hover {
@@ -33,11 +47,7 @@ div#fr {
     height: 150px;
 }
 
-div#ger {
-    display: flex;
-    flex-direction: column;
-    height: 150px;
-}
+
  /*:hover {
     background-color: aqua;
 }
