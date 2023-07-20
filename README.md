@@ -1,3 +1,3 @@
-# first-git-repo
+# First Git Repo
 
-Hello First Git Repo Clone!
+# Contains html, css and js challenges
